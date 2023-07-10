@@ -4,7 +4,7 @@ By augmenting the 2D vectors with an additional dimension representing the dista
 It utilized both the coordinates and distances from the origin to achieve improved results.
 
 This Project was developed for the Machine Learning course (University of Patras).
-TO RUN Kmeans_Clustering:
+TO RUN Kmeans_Clustering.py:
 1) pip install numpy, math, matplotlib, scipy, random.
 2) Put "data33.mat" in the same file with script.
 3) Run :D
@@ -19,7 +19,7 @@ Description:
 7) main: Execute functions in order. Calculate mistakes using the secret info that the dataset is split in half.
 8) Finally plot datapoints with true label and circle around them with the cluster assigned from kmeans.
 
-TO RUN Kmeans_Clustering:
+TO RUN Kmeans_3d_Clustering.py:
 1) pip install numpy, math, matplotlib, scipy, random, mpl_toolkits.
 2) Put "data33.mat" in the same file with script.
 3) Run :D
