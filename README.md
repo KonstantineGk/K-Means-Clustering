@@ -4,28 +4,17 @@ By augmenting the 2D vectors with an additional dimension representing the dista
 It utilized both the coordinates and distances from the origin to achieve improved results.
 
 This Project was developed for the Machine Learning course (University of Patras).
-TO RUN Kmeans_Clustering.py:
+TO RUN main.py or main3d.py:
 1) pip install numpy, math, matplotlib, scipy, random.
 2) Put "data33.mat" in the same file with script.
 3) Run :D
 
 Description:
-1) Load: Loads data from data33.mat.
-2) distance_Euc: Calculate the Euclidean distance from two 2D points.
-3) init_Centroids: Choose 2 random centroids from the dataset.
-4) choose_Cluster: Assing datapoints to closest centroid and create clusters.
-5) update_Centroids: Update centroids based on the mean of data points assigned to each cluster.
-6) kmeans: Execute Kmeans
-7) main: Execute functions in order. Calculate mistakes using the secret info that the dataset is split in half.
-8) Finally plot datapoints with true label and circle around them with the cluster assigned from kmeans.
-
-TO RUN Kmeans_3d_Clustering.py:
-1) pip install numpy, math, matplotlib, scipy, random, mpl_toolkits.
-2) Put "data33.mat" in the same file with script.
-3) Run :D
-
-The only difference is that during the Load we add a 3rd dimension to the dataset with ||X[:]||**2
-and modify all other functions to support it.
-Finall we can also plot in 3D.
-
-Thank you!
+1) Load_data.py: Loads data from data33.mat.
+2) Euc_distance.py: Calculate the Euclidean distance from two points.
+3) Init_Centroids.py: Choose 2 random centroids from the dataset.
+4) Cluster_Choice.py: Assing datapoints to closest centroid and create clusters.
+5) Centroid_Update.py: Update centroids based on the mean of data points assigned to each cluster.
+6) Kmeans_algo.py: Execute Kmeans
+7) main.py: Execute functions in order. Calculate mistakes using the secret info that the dataset is split in half. Finally plot datapoints with true label and circle around them with the cluster assigned from kmeans.
+8) main3d.py: Same with main but with added dimension.
