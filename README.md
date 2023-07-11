@@ -6,8 +6,8 @@ It utilized both the coordinates and distances from the origin to achieve improv
 This Project was developed for the Machine Learning course (University of Patras).
 TO RUN main.py or main3d.py:
 1) pip install numpy, math, matplotlib, scipy, random.
-2) Put "data33.mat" in the same file with script.
-3) Run :D
+2) Put "data33.mat" in the same file with script and file your adress in Load_file.
+3) Run main.py or main3d.py. 
 
 Description:
 1) Load_data.py: Loads data from data33.mat.
